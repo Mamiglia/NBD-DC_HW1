@@ -6,15 +6,15 @@ Homework#1 for Networking for Big Data. Sapienza 2022/23
 1. scripts for generating _p-ER_ and _r-regular random graphs_, with param K = number of nodes
 2. scripts for checking that the graphs are fully connected:
 
-    - Irreducibilty (numpy?)
-    - Laplacian (numpy?)
-    - BFS
+   1. Irreducibilty (numpy?) [ref](https://math.stackexchange.com/a/2682461/1051217)
+   2. Laplacian (numpy?)
+   3. BFS
   
-3. Compare complexity for all the previous functions, as a function of K, then plot
-4. let $p_C$ be the probability that a given graph is connected, now by running Monte Carlo simulations:
+1. Compare complexity for all the previous functions, as a function of K, then plot
+2. let $p_C$ be the probability that a given graph is connected, now by running Monte Carlo simulations:
   
-    - find $p_C$ for p-ER graphs when K=100
-    - plot $p_C$ for r-regular graphs with r=2 and r=8 for any $K \leq 100$
+    1. find $p_C$ for p-ER graphs when K=100
+    2. plot $p_C$ for r-regular graphs with r=2 and r=8 for any $K \leq 100$
 
 
 ## Part 2
