@@ -1,6 +1,7 @@
 from networkx import adjacency_matrix
 from scipy.sparse import identity
 import networkx as nx
+import numpy as np
 
 def is_irreducible(G: nx.Graph) -> bool:
     adj_mat = adjacency_matrix(G)  # adjacency matrix
