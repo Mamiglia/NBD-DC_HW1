@@ -25,4 +25,13 @@ def n_closest(g: nx.Graph, n: int, src: int, targets: set) -> list :
     
     return arg_n_smallest(sp_servers, n)
 
-    
+def count_closest(h: dict, N : int) -> dict:
+    r = {}
+    for h,n in sorted(h.items(), key=lambda x: x[0]):
+        n_0 = min(n, N)
+        N -= n_0
+        r[h] = n_0
+        if N == 0:
+            break
+        
+    return r
